@@ -1,0 +1,103 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    /*margin: 5px;
+    padding: 0px;
+    width: 1024px;*/
+}
+
+.main-body{
+    border: black solid 1px;
+    padding: 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+}
+
+.header{
+    border: black solid 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    /*justify-content: space-between;*/
+}
+
+.logo{
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+}
+
+.headlinks{
+    border: black solid 1px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer{
+    border: black solid 1px;
+    margin: 5px;
+    align-self: auto;
+    /*align-content: center;*/
+}
+
+/*
+.rest-body{
+    border: black solid 1px;
+    display: flex;
+    flex-direction: row;
+
+}
+*/
+
+.left-column{
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+}
+
+.right-column{
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.login-link{
+    border: black solid 1px;
+    align-self: center;
+    padding: 10px;
+}
+
+.headline{
+    border: black solid 1px;
+    align-self: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.mini-body{
+    border: black solid 1px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* img {
+    border-radius: 8px;
+    max-width: 30%;
+    height: auto;
+  }
+  */
